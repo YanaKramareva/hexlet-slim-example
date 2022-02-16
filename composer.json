@@ -1,0 +1,37 @@
+{
+    "name": "hexlet/slim-example",
+    "description": "Learning framework Slim",
+    "type": "project",
+    "license": "MIT",
+    "scripts": {
+        "phpcs": "phpcs",
+        "test": "phpunit tests"
+    },
+    "autoload": {
+        "files": [
+            "public/index.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Yana Kramareva",
+            "email": "iana2000@mail.ru"
+        }
+    ],
+    "bin": [
+    ],
+    "require": {
+        "slim/slim": "^4.9",
+        "slim/psr7": "^1.5",
+        "slim/http": "^1.2",
+        "slim/php-view": "^3.1",
+        "php-di/php-di": "^6.3"
+    }
+,
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.6",
+        "phpstan/phpstan": "^1.1"
+    }
+}
+
